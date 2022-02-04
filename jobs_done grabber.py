@@ -15,7 +15,6 @@ def job_reader(start_date, end_date):
         try:
             job.index('-ADDED')
         except:
-
             date = datetime.datetime.strptime(job[9], '%d/%m/%y')
             time = (datetime.datetime.strptime(job[10], '%H:%M:%S')).time()
             date_time = datetime.datetime.combine(date, time)

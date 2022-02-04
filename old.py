@@ -45,6 +45,7 @@ for i in lots:
         a = lots[i]
         b= lots[i][j][8]
         c= len(b)
+
         try:
             requestd = datetime.datetime.strptime(lots[i][j][7], '%d-%m-%y')
             measurd = datetime.datetime.strptime(lots[i][j][8], '%d-%m-%y')

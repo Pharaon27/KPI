@@ -17,7 +17,6 @@ for y in year:
         for file in files:
             if file[9:15] == date:
                 planning_files.append(file)
-
 queue = []
 q_base = {}
 q_sorter = {}

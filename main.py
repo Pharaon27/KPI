@@ -21,7 +21,6 @@ for y in year:
 
         fromsite = get(url).content
         file = fromsite.decode('utf-8').split('\n')
-
         for i in file:
             a=i
             if i == '':
